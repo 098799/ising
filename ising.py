@@ -4,7 +4,7 @@ from math import exp
 from sys import argv
 
 #Define the size of the array n:
-n = 10
+n = int(argv[2])
 
 #Check the temperature t for easy usage in bash:
 t = float(argv[1])
